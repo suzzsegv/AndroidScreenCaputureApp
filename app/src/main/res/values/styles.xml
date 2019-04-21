@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- 半透明背景設定 -->
+    <drawable name="transparameter">#00000000</drawable>
+    <style name="Theme.TranslucentBackground" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/transparameter</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>
